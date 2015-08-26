@@ -55,8 +55,8 @@ def handle(request):
 
          M = imaplib.IMAP4_SSL('imap.gmail.com')
 
-         username = "smartdustbinserver"
-         password = "coderhardware"
+         username = "YOUREMAIL"
+         password = "YOURPASSWORD"
 
          try:
             M.login(username, password)
