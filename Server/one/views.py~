@@ -47,8 +47,8 @@ def handle(request):
 
          M = imaplib.IMAP4_SSL('imap.gmail.com')
 
-         username = "YOUREMAIL" #Username for the server email
-         password = "YOURPASSWORD" #Password for the server email
+         username = "YOUREMAIL"
+         password = "YOURPASSWORD"
 
          try:
             M.login(username, password) #Login into mail account
